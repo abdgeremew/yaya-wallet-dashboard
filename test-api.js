@@ -112,7 +112,7 @@ async function testAPI() {
   console.log('\n' + '='.repeat(50) + '\n');
   console.log('🎉 API testing completed!');
   console.log('\n💡 Next steps:');
-  console.log('1. Start the backend: cd backend && npm start');
+  console.log('1. Start the backend: cd backend && npm run dev');
   console.log('2. Start the frontend: cd frontend && npm start');
   console.log('3. Open http://localhost:3000 in your browser');
 }
