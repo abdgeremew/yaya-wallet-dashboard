@@ -1,0 +1,40 @@
+{
+  "name": "yaya-wallet-dashboard",
+  "version": "1.0.0",
+  "description": "YaYa Wallet Transaction Dashboard - Full Stack Application",
+  "type": "module",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "start": "npm run start:backend & npm run start:frontend",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "dev": "npm run dev:backend & npm run dev:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "test-api": "node test-api.js",
+    "build": "cd frontend && npm run build",
+    "clean": "rm -rf node_modules backend/node_modules frontend/node_modules"
+  },
+  "keywords": [
+    "yaya-wallet",
+    "transaction-dashboard",
+    "react",
+    "nodejs",
+    "express",
+    "api-integration"
+  ],
+  "author": "YaYa Wallet Dashboard Team",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^4.5.0",
+    "react-chartjs-2": "^5.3.0"
+  },
+  "devDependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
